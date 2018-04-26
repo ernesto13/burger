@@ -2,6 +2,37 @@ body {
     background: #d0ebea;
 }
 
+li {
+    padding: 10px;
+    margin: 15px;
+    background: #faebd7;
+    list-style-type: none;
+    border-radius: 8px;
+}
+
+.container-fluid {
+    margin-left: 50px;
+}
+
+.label,
+label {
+    font-weight: bold;
+}
+
+.create-update-form {
+    padding: 5px;
+    margin: 5px;
+    background: aqua;
+}
+
+.btn-outline-dark {
+    margin-bottom: 35px;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
 .container {
     margin: 0 auto;
 }
