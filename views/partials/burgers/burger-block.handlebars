@@ -1,0 +1,12 @@
+<li>
+	{{burger_name}}
+
+
+{{#if devoured}}
+<button class="change-devoured btn btn-outline-danger ml-5" data-id="{{id}}" data-newdevoured="{{devoured}}">Devour!
+	</button> {{else}}
+<button class="change-devoured btn btn-outline-primary ml-5" data-id="{{id}}" data-newdevoured="{{devoured}}">Get a refund!
+	</button> {{/if}}
+
+
+</li>
